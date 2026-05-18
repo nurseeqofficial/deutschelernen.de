@@ -117,6 +117,8 @@ nav a:hover::after {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .btn:hover, nav a.btn:hover {
@@ -176,6 +178,7 @@ nav a:hover::after {
   display: flex;
   gap: 20px;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 .hero .cta .btn-outline {
