@@ -61,13 +61,13 @@ header {
 
 .logo img {
   height: 50px;
-  filter: brightness(0) invert(1) drop-shadow(0 0 8px var(--accent-glow));
+  filter: drop-shadow(0 0 8px var(--accent-glow));
   transition: transform 0.3s, filter 0.3s;
 }
 
 .logo img:hover {
   transform: scale(1.05);
-  filter: brightness(0) invert(1) drop-shadow(0 0 15px var(--accent));
+  filter: drop-shadow(0 0 15px var(--accent));
 }
 
 nav {
