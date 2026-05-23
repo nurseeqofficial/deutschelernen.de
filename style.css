@@ -59,13 +59,35 @@ header {
   animation: fadeInDown 0.6s ease-out;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-main);
+  transition: all 0.3s;
+}
+
+.logo span .highlight-text {
+  color: var(--accent);
+}
+
+.logo:hover {
+  color: var(--accent);
+}
+
 .logo img {
   height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
   filter: drop-shadow(0 0 8px var(--accent-glow));
   transition: transform 0.3s, filter 0.3s;
 }
 
-.logo img:hover {
+.logo:hover img {
   transform: scale(1.05);
   filter: drop-shadow(0 0 15px var(--accent));
 }
