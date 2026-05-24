@@ -469,3 +469,14 @@ footer p {
     font-size: 2.2rem;
   }
 }
+
+/* Compliance Footer Links */
+.footer-links a {
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: var(--accent) !important;
+  text-shadow: 0 0 8px var(--accent-glow);
+}
+
